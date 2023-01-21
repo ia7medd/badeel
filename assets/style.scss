@@ -15,7 +15,6 @@ a:hover {
   color: #095aa5;
 }
 
-//
 .one-section {
   padding: 50px 0;
   &.grayBg {
@@ -55,7 +54,6 @@ a:hover {
     }
   }
 }
-//
 
 #header {
   position: fixed;
@@ -353,41 +351,27 @@ a:hover {
   p {
     font-size: 28px;
   }
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 125px;
-    height: 90px;
-    background: url("../images/quote.svg") no-repeat center;
-    background-size: contain;
-    transition: all 0.4 ease;
-  }
-
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 125px;
-    height: 90px;
-    background: url("../images/quote2.svg") no-repeat center;
-    background-size: contain;
-    transition: all 0.4 ease;
-  }
 }
 
 .carousel-section {
-  .splide__slide:not(.is-active) {
-    // .quote {
-    //   &::before,
-    //   &::after {
-    //     opacity: 0;
-    //     visibility: hidden;
-    //   }
-    // }
+  position: relative;
+  .quoteBefore {
+    position: absolute;
+    top: 50px;
+    left: 1rem;
+    width: 80px;
+    height: 60px;
+    background: url("../images/quote.svg") no-repeat center;
+    background-size: contain;
+  }
+  .quoteAfter {
+    position: absolute;
+    bottom: 120px;
+    right: 1rem;
+    width: 80px;
+    height: 60px;
+    background: url("../images/quote2.svg") no-repeat center;
+    background-size: contain;
   }
 
   .carousel-arrows {
@@ -467,6 +451,19 @@ a:hover {
       .paragraphs_line {
         flex: 0 0 40%;
       }
+    }
+  }
+
+  .carousel-section {
+    .quoteBefore {
+      top: 100px;
+      width: 125px;
+      height: 90px;
+    }
+    .quoteAfter {
+      bottom: 150px;
+      width: 125px;
+      height: 90px;
     }
   }
 
@@ -551,6 +548,17 @@ a:hover {
 
     p {
       font-size: 40px;
+    }
+  }
+
+  .carousel-section {
+    .quoteBefore {
+      top: 150px;
+      left: 10rem;
+    }
+    .quoteAfter {
+      bottom: 220px;
+      right: 10rem;
     }
   }
 

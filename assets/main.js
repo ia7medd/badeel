@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
       prev: "splide__arrow--prev",
       next: "splide__arrow--next",
     },
+
     breakpoints: {
       768: {
         padding: "0",
@@ -33,10 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function scrollToElement(e, id) {
   e.preventDefault();
-  //   window.scrollToElement(document.getElementById(id), 500);
   var element = document.getElementById(id);
   console.log(id, element);
   element.scrollIntoView();
 }
-
-// document.get;

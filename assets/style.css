@@ -292,29 +292,28 @@ a:hover {
 .quote p {
   font-size: 28px;
 }
-.quote::before {
-  content: "";
+
+.carousel-section {
+  position: relative;
+}
+.carousel-section .quoteBefore {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 125px;
-  height: 90px;
+  top: 50px;
+  left: 1rem;
+  width: 80px;
+  height: 60px;
   background: url("../images/quote.svg") no-repeat center;
   background-size: contain;
-  transition: all 0.4 ease;
 }
-.quote::after {
-  content: "";
+.carousel-section .quoteAfter {
   position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 125px;
-  height: 90px;
+  bottom: 120px;
+  right: 1rem;
+  width: 80px;
+  height: 60px;
   background: url("../images/quote2.svg") no-repeat center;
   background-size: contain;
-  transition: all 0.4 ease;
 }
-
 .carousel-section .carousel-arrows {
   display: flex;
   width: 100%;
@@ -379,6 +378,17 @@ a:hover {
   }
   .top-section .top-section_content .paragraphs_line {
     flex: 0 0 40%;
+  }
+
+  .carousel-section .quoteBefore {
+    top: 100px;
+    width: 125px;
+    height: 90px;
+  }
+  .carousel-section .quoteAfter {
+    bottom: 150px;
+    width: 125px;
+    height: 90px;
   }
 
   .one-card {
@@ -455,6 +465,15 @@ a:hover {
   }
   .quote p {
     font-size: 40px;
+  }
+
+  .carousel-section .quoteBefore {
+    top: 150px;
+    left: 10rem;
+  }
+  .carousel-section .quoteAfter {
+    bottom: 220px;
+    right: 10rem;
   }
 
   .about-us h4 {
