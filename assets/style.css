@@ -129,13 +129,13 @@ a:hover {
   position: relative;
   z-index: 1;
   width: 90%;
-  max-width: 700px;
+  max-width: 800px;
   margin: 10% auto 0;
   color: white;
 }
 .top-section .top-section_content h2 {
   font-size: 40px;
-  max-width: 640px;
+  max-width: 680px;
   margin-bottom: 20px;
 }
 .top-section .top-section_content .paragraphs_line {
@@ -251,7 +251,7 @@ a:hover {
 }
 
 #footer .content .footer-col {
-  padding: 20px 0;
+  padding: 10px 0;
 }
 #footer .content .left-col {
   font-size: 14px;
@@ -267,7 +267,7 @@ a:hover {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  font-size: 32px;
+  font-size: 20px;
 }
 #footer .content .nav ul li {
   flex: 0 0 50%;
@@ -275,6 +275,8 @@ a:hover {
 #footer .content .right-col {
   display: flex;
   align-items: center;
+  border-top: 1px solid #f6f6f6;
+  padding-top: 20px;
 }
 #footer .content .right-col p {
   margin-inline-end: 20px;
@@ -373,7 +375,7 @@ a:hover {
 
   .top-section .top-section_content h2 {
     font-size: 64px;
-    max-width: 640px;
+    max-width: 680px;
     margin-bottom: 40px;
   }
   .top-section .top-section_content .paragraphs_line {
@@ -425,6 +427,13 @@ a:hover {
   }
   .about-us h4 {
     font-size: 48px;
+  }
+
+  #footer .content .footer-col {
+    padding: 20px 0;
+  }
+  #footer .content .nav ul {
+    font-size: 32px;
   }
 }
 @media (min-width: 992px) {
@@ -494,6 +503,10 @@ a:hover {
     border-right: none;
     padding-inline-end: 0;
     margin-inline-end: 0;
+  }
+  #footer .content .right-col {
+    border: none;
+    padding-top: 0;
   }
 }
 

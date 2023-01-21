@@ -173,13 +173,13 @@ a:hover {
     position: relative;
     z-index: 1;
     width: 90%;
-    max-width: 700px;
+    max-width: 800px;
     margin: 10% auto 0;
     color: white;
 
     h2 {
       font-size: 40px;
-      max-width: 640px;
+      max-width: 680px;
       margin-bottom: 20px;
     }
 
@@ -304,7 +304,7 @@ a:hover {
 #footer {
   .content {
     .footer-col {
-      padding: 20px 0;
+      padding: 10px 0;
     }
 
     .left-col {
@@ -321,7 +321,7 @@ a:hover {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        font-size: 32px;
+        font-size: 20px;
         li {
           flex: 0 0 50%;
         }
@@ -331,6 +331,8 @@ a:hover {
     .right-col {
       display: flex;
       align-items: center;
+      border-top: 1px solid #f6f6f6;
+      padding-top: 20px;
 
       p {
         margin-inline-end: 20px;
@@ -445,7 +447,7 @@ a:hover {
     .top-section_content {
       h2 {
         font-size: 64px;
-        max-width: 640px;
+        max-width: 680px;
         margin-bottom: 40px;
       }
       .paragraphs_line {
@@ -499,6 +501,15 @@ a:hover {
     }
     h4 {
       font-size: 48px;
+    }
+  }
+
+  #footer .content {
+    .footer-col {
+      padding: 20px 0;
+    }
+    .nav ul {
+      font-size: 32px;
     }
   }
 }
@@ -582,6 +593,10 @@ a:hover {
           padding-inline-end: 0;
           margin-inline-end: 0;
         }
+      }
+      .right-col {
+        border: none;
+        padding-top: 0;
       }
     }
   }
