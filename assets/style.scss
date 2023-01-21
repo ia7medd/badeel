@@ -514,6 +514,12 @@ a:hover {
     }
   }
 
+  .top-section {
+    .top-section_content {
+      margin: 60px auto 0;
+    }
+  }
+
   .one-section {
     padding: 150px 0;
   }
@@ -571,8 +577,4 @@ a:hover {
       }
     }
   }
-}
-
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
 }

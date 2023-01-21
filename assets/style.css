@@ -422,6 +422,10 @@ a:hover {
     font-size: 64px;
   }
 
+  .top-section .top-section_content {
+    margin: 60px auto 0;
+  }
+
   .one-section {
     padding: 150px 0;
   }
