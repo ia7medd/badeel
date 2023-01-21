@@ -113,6 +113,18 @@ a:hover {
   object-fit: cover;
   object-position: bottom;
 }
+.top-section .top-section_bg .gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -moz-linear-gradient(top, rgb(68, 139, 194) 0%, rgba(125, 185, 232, 0) 100%);
+  background: -webkit-linear-gradient(top, rgb(68, 139, 194) 0%, rgba(125, 185, 232, 0) 100%);
+  background: linear-gradient(to bottom, rgb(68, 139, 194) 0%, rgba(125, 185, 232, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#448bc2", endColorstr="#007db9e8",GradientType=0 );
+  /* IE6-9 */
+}
 .top-section .top-section_content {
   position: relative;
   z-index: 1;
