@@ -293,6 +293,7 @@ a:hover {
 }
 .quote p {
   font-size: 28px;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .carousel-section {
@@ -341,6 +342,9 @@ a:hover {
 .carousel-section .splide__arrow.splide__arrow--prev {
   transform: rotate(180deg);
   margin-right: 20px;
+}
+.carousel-section .splide__slide:not(.is-active) .quote p {
+  opacity: 0.4;
 }
 
 @media (min-width: 576px) {

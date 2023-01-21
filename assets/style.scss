@@ -352,6 +352,7 @@ a:hover {
 
   p {
     font-size: 28px;
+    transition: opacity 0.3s ease-in-out;
   }
 }
 
@@ -402,6 +403,14 @@ a:hover {
     &.splide__arrow--prev {
       transform: rotate(180deg);
       margin-right: 20px;
+    }
+  }
+
+  .splide__slide:not(.is-active) {
+    .quote {
+      p {
+        opacity: 0.4;
+      }
     }
   }
 }
